@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #e9edf9; 
+    color: darkslategrey;
+}
+
+/* Navigation */
+nav {
+    background-color: #101222;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #e0e1dd;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    background-color: #0b2761;
+    color: #e0e1dd;
+    
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.hero-image {
+    width: 250px;
+    height: 250px;
+    background-image: url('my-photo.jpg');
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #e0e1dd;
+}
+
+
+.hero-right h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color:#e0e1dd;
+}
+
+.hero-right p {
+    font-size: 1.2rem;
+    color: #e0e1dd;
+}
+
+/* About Section */
+.about-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+    font-weight: 400;
+
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+    color: #1b263b;
+}
+
+/* Skills Section */
+.skills-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 30px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px gray;
+}
+
+.skills-section h2 {
+    color: #1b263b;
+    margin-bottom: 20px;
+}
+
+.skill-item {
+    display: inline-block;
+    text-align: center;
+    margin: 0 12px;
+    font-weight: 400;
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    color: #1344a5;
+    margin-bottom: 8px;
+}
+
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 20px;
+    text-align: center;
+    background-color:white;
+    margin: 30px auto;
+    border-radius: 15px;
+    max-width: 800px;
+    box-shadow: 0 5px 15px gray;
+}
+
+.contact-section h2 {
+    color: #1b263b;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    font-size: 2.5rem;
+    margin: 0 12px;
+    color: #1344a5;
+}
+
+footer {
+    background-color:#101222;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
