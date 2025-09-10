@@ -1,4 +1,4 @@
-Project 1: Build Your Personal Website with AI!
+#Project 1: Build Your Personal Website with AI!
 
 In this project, you will leverage AI and your knowledge of HTML and CSS to build a simple, single-page personal website that will showcase your projects.
 
